@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E877DB72486586800DE8C3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E877DB62486586800DE8C3F /* AppDelegate.m */; };
+		1E877DBA2486586800DE8C3F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E877DB92486586800DE8C3F /* SceneDelegate.m */; };
+		1E877DBD2486586800DE8C3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E877DBC2486586800DE8C3F /* ViewController.m */; };
+		1E877DC02486586800DE8C3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E877DBE2486586800DE8C3F /* Main.storyboard */; };
+		1E877DC22486586900DE8C3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E877DC12486586900DE8C3F /* Assets.xcassets */; };
+		1E877DC52486586900DE8C3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E877DC32486586900DE8C3F /* LaunchScreen.storyboard */; };
+		1E877DC82486586900DE8C3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E877DC72486586900DE8C3F /* main.m */; };
+		1E877DD524867BE200DE8C3F /* PDFViewerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E877DD224867BE200DE8C3F /* PDFViewerController.xib */; };
+		1E877DD624867BE200DE8C3F /* PDFViewerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E877DD424867BE200DE8C3F /* PDFViewerController.m */; };
+		1E877DD72486806A00DE8C3F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E877DCF24866E1F00DE8C3F /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E877DB22486586800DE8C3F /* PDFViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E877DB52486586800DE8C3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E877DB62486586800DE8C3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E877DB82486586800DE8C3F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		1E877DB92486586800DE8C3F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		1E877DBB2486586800DE8C3F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1E877DBC2486586800DE8C3F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1E877DBF2486586800DE8C3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E877DC12486586900DE8C3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E877DC42486586900DE8C3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E877DC62486586900DE8C3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E877DC72486586900DE8C3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E877DCF24866E1F00DE8C3F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		1E877DD224867BE200DE8C3F /* PDFViewerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDFViewerController.xib; sourceTree = "<group>"; };
+		1E877DD324867BE200DE8C3F /* PDFViewerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFViewerController.h; sourceTree = "<group>"; };
+		1E877DD424867BE200DE8C3F /* PDFViewerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFViewerController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E877DAF2486586800DE8C3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E877DD72486806A00DE8C3F /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E877DA92486586800DE8C3F = {
+			isa = PBXGroup;
+			children = (
+				1E877DB42486586800DE8C3F /* PDFViewer */,
+				1E877DB32486586800DE8C3F /* Products */,
+				1E877DCE24866E1F00DE8C3F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1E877DB32486586800DE8C3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E877DB22486586800DE8C3F /* PDFViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E877DB42486586800DE8C3F /* PDFViewer */ = {
+			isa = PBXGroup;
+			children = (
+				1E877DD124867BD400DE8C3F /* Lib */,
+				1E877DB52486586800DE8C3F /* AppDelegate.h */,
+				1E877DB62486586800DE8C3F /* AppDelegate.m */,
+				1E877DB82486586800DE8C3F /* SceneDelegate.h */,
+				1E877DB92486586800DE8C3F /* SceneDelegate.m */,
+				1E877DBB2486586800DE8C3F /* ViewController.h */,
+				1E877DBC2486586800DE8C3F /* ViewController.m */,
+				1E877DBE2486586800DE8C3F /* Main.storyboard */,
+				1E877DC12486586900DE8C3F /* Assets.xcassets */,
+				1E877DC32486586900DE8C3F /* LaunchScreen.storyboard */,
+				1E877DC62486586900DE8C3F /* Info.plist */,
+				1E877DC72486586900DE8C3F /* main.m */,
+			);
+			path = PDFViewer;
+			sourceTree = "<group>";
+		};
+		1E877DCE24866E1F00DE8C3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E877DCF24866E1F00DE8C3F /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E877DD124867BD400DE8C3F /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				1E877DD324867BE200DE8C3F /* PDFViewerController.h */,
+				1E877DD424867BE200DE8C3F /* PDFViewerController.m */,
+				1E877DD224867BE200DE8C3F /* PDFViewerController.xib */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E877DB12486586800DE8C3F /* PDFViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E877DCB2486586900DE8C3F /* Build configuration list for PBXNativeTarget "PDFViewer" */;
+			buildPhases = (
+				1E877DAE2486586800DE8C3F /* Sources */,
+				1E877DAF2486586800DE8C3F /* Frameworks */,
+				1E877DB02486586800DE8C3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFViewer;
+			productName = PDFViewer;
+			productReference = 1E877DB22486586800DE8C3F /* PDFViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E877DAA2486586800DE8C3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Ujesh Patel";
+				TargetAttributes = {
+					1E877DB12486586800DE8C3F = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 1E877DAD2486586800DE8C3F /* Build configuration list for PBXProject "PDFViewer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E877DA92486586800DE8C3F;
+			productRefGroup = 1E877DB32486586800DE8C3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E877DB12486586800DE8C3F /* PDFViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E877DB02486586800DE8C3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E877DD524867BE200DE8C3F /* PDFViewerController.xib in Resources */,
+				1E877DC52486586900DE8C3F /* LaunchScreen.storyboard in Resources */,
+				1E877DC22486586900DE8C3F /* Assets.xcassets in Resources */,
+				1E877DC02486586800DE8C3F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E877DAE2486586800DE8C3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E877DBD2486586800DE8C3F /* ViewController.m in Sources */,
+				1E877DB72486586800DE8C3F /* AppDelegate.m in Sources */,
+				1E877DC82486586900DE8C3F /* main.m in Sources */,
+				1E877DD624867BE200DE8C3F /* PDFViewerController.m in Sources */,
+				1E877DBA2486586800DE8C3F /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1E877DBE2486586800DE8C3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E877DBF2486586800DE8C3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E877DC32486586900DE8C3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E877DC42486586900DE8C3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E877DC92486586900DE8C3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E877DCA2486586900DE8C3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E877DCC2486586900DE8C3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43Y43Y6N56;
+				INFOPLIST_FILE = PDFViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Demo.PDFViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E877DCD2486586900DE8C3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43Y43Y6N56;
+				INFOPLIST_FILE = PDFViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Demo.PDFViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E877DAD2486586800DE8C3F /* Build configuration list for PBXProject "PDFViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E877DC92486586900DE8C3F /* Debug */,
+				1E877DCA2486586900DE8C3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E877DCB2486586900DE8C3F /* Build configuration list for PBXNativeTarget "PDFViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E877DCC2486586900DE8C3F /* Debug */,
+				1E877DCD2486586900DE8C3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E877DAA2486586800DE8C3F /* Project object */;
+}
